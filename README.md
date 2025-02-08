@@ -1,7 +1,7 @@
-# Terraform VPC Bucket Module
+# Terraform VPC (Virtual Private Cloud) Module
 
 ## Overview
-This repository contains a Terraform module for creating and managing an VPC bucket using Infrastructure as Code (IaC). The module is designed to be reusable and follows best practices for scalability and maintainability.
+This repository contains a Terraform module for creating and managing an VPC (Virtual Private Cloud) using Infrastructure as Code (IaC). The module is designed to be reusable and follows best practices for scalability and maintainability.
 
 ## What Are Terraform Modules?
 Terraform modules are self-contained packages of Terraform configurations that allow for the reuse of code. A module consists of `.tf` files that define infrastructure resources and can be called from a root module to provision resources in a structured manner.
@@ -24,7 +24,7 @@ Terraform modules are self-contained packages of Terraform configurations that a
 ├── outputs.tf            # Output values
 ├── terraform.tfvars      # Variable values (not included in version control)
 ├── modules/
-│   └── VPC_bucket/        # Terraform module for VPC bucket
+│   └── VPC_(Virtual Private Cloud)/        # Terraform module for VPC (Virtual Private Cloud)
 │       ├── main.tf       # Resource definitions
 │       ├── variables.tf  # Module input variables
 │       ├── outputs.tf    # Module output values
