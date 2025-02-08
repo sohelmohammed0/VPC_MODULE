@@ -6,6 +6,10 @@ This repository contains a Terraform module for creating and managing an VPC (Vi
 ## What Are Terraform Modules?
 Terraform modules are self-contained packages of Terraform configurations that allow for the reuse of code. A module consists of `.tf` files that define infrastructure resources and can be called from a root module to provision resources in a structured manner.
 
+## Prerequisites
+- Terraform installed on your system (>= 1.0.0)
+- AWS CLI with credentials configured for authentication
+
 ### Advantages of Terraform Modules
 1. **Reusability:** Modules allow code to be reused across multiple projects, reducing duplication.
 2. **Maintainability:** Easier to manage and update infrastructure by organizing it into logical components.
@@ -63,9 +67,6 @@ Terraform modules are self-contained packages of Terraform configurations that a
 
    ![Destroy Resources (if needed):](./iamges/destroyop.png)
 
-## Prerequisites
-- Terraform installed on your system (>= 1.0.0)
-- AWS credentials configured for authentication
 
 ## Best Practices for Using Terraform Modules
 - Keep modules versioned and documented.
